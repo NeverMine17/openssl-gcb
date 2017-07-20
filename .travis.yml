@@ -1,5 +1,9 @@
 language: cpp
 
+apt:
+  packages:
+    - cxxtest
+
 script:
   - cmake .
   - cxxtestgen --xunit-printer -o runner.cpp tests.cpp
