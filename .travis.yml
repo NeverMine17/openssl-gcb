@@ -1,8 +1,9 @@
 language: cpp
 
-apt:
-  packages:
-    - cxxtest
+addons:
+  apt:
+    packages:
+      - cxxtest
 
 script:
   - cmake .
