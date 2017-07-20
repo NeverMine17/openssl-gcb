@@ -10,5 +10,5 @@ script:
   - make
   - cd tests/
   - cxxtestgen --xunit-printer -o runner.cpp tests.cpp
-  - g++ -std=c++11 -L. -lopenssl-gcb -lcrypto ./runner.cpp -o runner
+  - g++ -std=c++11 -L../ -lopenssl-gcb -lcrypto ./runner.cpp -o runner
   - ./runner
