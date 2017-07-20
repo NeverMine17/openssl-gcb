@@ -1,0 +1,5 @@
+language: C++
+
+script:
+  - cmake .
+- cxxtestgen --xunit-printer -o runner.cpp tests.cpp
