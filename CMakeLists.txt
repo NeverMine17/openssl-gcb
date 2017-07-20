@@ -13,5 +13,5 @@ set(
 )
 
 add_library(
-        openssl-gcb SHARED ${SOURCE_FILES}
+        libopenssl-gcb SHARED ${SOURCE_FILES}
 )
