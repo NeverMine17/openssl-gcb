@@ -7,4 +7,7 @@ addons:
 
 script:
   - cmake .
+  - cd tests/
   - cxxtestgen --xunit-printer -o runner.cpp tests.cpp
+  - g++ ./runner.cpp -o runner
+  - ./runner
