@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.7)
-project(openssl_gcb_file_encrypting)
+cmake_minimum_required(VERSION 3.0)
+project(openssl-gcb)
 
 set(CMAKE_CXX_STANDARD 17)
 
